@@ -1,0 +1,40 @@
+/* Tablets and under */
+@media (max-width: 768px) {
+  #nav-bar {
+    justify-content: center;
+  }
+  #avatar {
+    display: none;
+  }
+  #target,
+  #personal-info {
+    padding: 50px 30px;
+    width: 100%;
+  }
+  section > .container {
+    padding: 0 0;
+    width: 95%;
+  }
+  .container-cer {
+    width: 100%;
+  }
+  .item-cer {
+    display: block;
+  }
+  .item-cer img {
+    width: 100%;
+  }
+  /* .time-prj {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  } */
+  .time-prj {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .time {
+    grid-row: span -1;
+  }
+}

@@ -1,0 +1,42 @@
+/* Mobile*/
+@media (max-width: 576px) {
+  #nav-bar {
+    height: auto;
+    border: none;
+  }
+  #nav-bar ul {
+    display: block;
+    padding: 40px;
+    margin-bottom: 0;
+  }
+  #avatar {
+    display: none;
+  }
+  #nav-bar li {
+    border: none;
+    padding-bottom: 15px;
+  }
+  #nav-bar li:first-child {
+    border-left: none;
+  }
+  #personal-info,
+  #target {
+    padding: 60px;
+    width: 100%;
+  }
+  .container-cer {
+    display: block;
+  }
+  .set-border {
+    border-left: none;
+  }
+  .item-cer img {
+    width: 100%;
+  }
+  .time-prj {
+    display: flex;
+  }
+  /* .container-footer li {
+    width: 80%;
+  } */
+}

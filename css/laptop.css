@@ -1,0 +1,306 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+body {
+  font-family: sans-serif;
+  color: #333;
+  position: relative;
+  line-height: 1.4;
+}
+section > .container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  height: 40px;
+}
+/* BANNER */
+.container-banner {
+  background-image: url("../images/Emirates stadium.png");
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-banner .overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* NAVIGATION BAR */
+#nav-bar {
+  height: 40px;
+}
+#nav-bar ul {
+  /* background-color: #f1f1f1; */
+  height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+#nav-bar li {
+  /* background-color: #f1f1f1; */
+  text-transform: uppercase;
+  font-weight: bold;
+  border-right: 1px solid black;
+  padding: 10px 20px;
+}
+#nav-bar li:first-child {
+  border-left: 1px solid black;
+}
+
+#avatar {
+  overflow: visible;
+  z-index: 100;
+}
+#avatar img {
+  width: 15vw;
+  max-width: 200px;
+  transform: translate(0, -50%);
+  border-radius: 100%;
+  border: 10px solid #fff;
+}
+/* MỤC TIÊU NGHỀ NGHIỆP VÀ THÔNG TIN CÁ NHÂN */
+
+.section-title {
+  font-size: 30px;
+}
+
+#personal-info,
+#target {
+  padding: 60px;
+  width: 50%;
+}
+.mt-40 {
+  padding-left: 0;
+}
+#nav-bar {
+  border-left: 1px solid black;
+}
+.contacts-list {
+  display: flex;
+  gap: 1.5rem;
+}
+/* THÔNG TIN  */
+#job-info .card {
+  display: grid;
+  border: 1px solid #aaa;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto 3fr;
+  align-content: start;
+}
+
+.card-title {
+  padding: 15px;
+  margin-bottom: 0;
+}
+.icon {
+  font-size: 35px;
+  padding-top: 15px;
+}
+.card-content {
+  grid-column: 1/-1;
+  padding: 0 20px 20px 20px;
+}
+.open-view-more {
+  cursor: pointer;
+}
+.hidden-view-button {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.hidden-view-button p {
+  background-color: coral;
+  border-radius: 25px;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  width: 88%;
+  padding-left: 20px;
+  font-size: 35px;
+}
+#icon-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.icon-container {
+  font-size: 40px;
+}
+
+.icon-label {
+  text-align: center;
+  margin-top: 10px;
+}
+.p-blue {
+  background: #199cdb;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+.details-favorite div i {
+  display: block;
+  padding: 10px;
+  border: 1px solid #199cdb;
+  border-radius: 60%;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #199cdb;
+}
+/* CHỨNG CHỈ- GIẢI THƯỞNG  */
+.p-grey {
+  background: grey;
+  display: inline-block;
+  height: 4px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* certificate */
+.container-cer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  grid-column-gap: 0;
+  grid-row-gap: 20px;
+}
+.item-cer {
+  display: flex;
+  height: auto;
+}
+.item-cer img {
+  width: 250px;
+}
+.set-border {
+  border-left: 1px solid yellow;
+}
+#certificate {
+  grid-column: 1/-1;
+  padding-top: 30px;
+}
+
+/* DỰ ÁN  */
+.container-prj {
+  width: 80%;
+  margin: 0 auto;
+}
+.item-pro {
+  border: 1px solid grey;
+}
+#project img {
+  width: 100%;
+  /* border-bottom: 2px solid black; */
+}
+.col-tab {
+  width: 25%;
+  /* padding-left: 20px; */
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 10px;
+}
+.name-prj {
+  margin: 20px auto 20px 20px;
+}
+.time {
+  background-color: #75c9ff;
+  display: inline-block;
+  border-radius: 500px;
+  padding: 3px 15px;
+  color: white;
+}
+.time-prj {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 10px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  height: auto;
+  gap: 10px;
+}
+#project p {
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+#project tr {
+  border-bottom: 1px solid grey;
+}
+#project tr:last-child {
+  border-bottom: none;
+}
+#project td {
+  padding: 8px;
+}
+#title-project {
+  padding-top: 20px;
+}
+/* FOOTER  */
+#footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
+#footer ul {
+  padding: 20px;
+  text-align: center;
+}
+.container-footer {
+  padding: 0px 50px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+ul {
+  list-style-type: initial;
+}
+.info li {
+  list-style-type: none;
+  padding-bottom: 1rem;
+}
+.content .name-content {
+  padding-bottom: 20px;
+}
+#nav-bar i,
+#footer i,
+#about i {
+  color: #199cdb;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.bg-grey2 {
+  background-color: #f0f0f0;
+}
+ul,
+ol {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+.form-text {
+  margin-bottom: 1.25rem;
+}
